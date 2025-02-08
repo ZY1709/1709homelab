@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .post {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .post-title {
+            margin-bottom: 5px;
+        }
+        .post-date {
+            color: #777;
+            font-size: smaller;
+            margin-bottom: 10px;
+        }
+        .post-content {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+
+       /* Basic responsive styling - adjust as needed */
+       @media (max-width: 600px) {
+           body {
+               margin: 10px; /* Smaller margins on smaller screens */
+           }
+           .post {
+               margin-bottom: 15px; /* Smaller post spacing */
+           }
+       }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Blog</h1>
+        <p>Welcome to my thoughts and ramblings.</p>
+    </header>
+
+    <main>
+
+        <div class="post">
+            <h2 class="post-title">First Blog Post</h2>
+            <div class="post-date">October 26, 2023</div>
+            <div class="post-content">
+                <p>This is the content of my first blog post.  I'm excited to start this journey and share my ideas with the world.  Stay tuned for more!</p>
+                <p>More content can go here. You can even add images or other HTML elements.</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <h2 class="post-title">Second Post - A Deeper Dive</h2>
+            <div class="post-date">October 27, 2023</div>
+            <div class="post-content">
+                <p>In this post, I'm going to explore a topic in more detail.  Let's talk about...</p>
+                <ul>
+                    <li>Point 1</li>
+                    <li>Point 2</li>
+                    <li>Point 3</li>
+                </ul>
+            </div>
+        </div>
+
+        </main>
+
+    <footer>
+        &copy; 2023 My Blog. All rights reserved.
+    </footer>
+
+</body>
+</html>
